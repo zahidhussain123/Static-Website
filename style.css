@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: cornflowerblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    height: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin-left: 26px;
+    font-size: 22px;
+    color: black;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+
+ul{
+    display: flex;
+    font-size: 18px;
+    padding: 0 25px;
+    
+}
+
+ul li{
+    list-style: none;
+    margin: 12px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:yellow;
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    color:black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: calc(100vh - 100px);
+    
+    
+}
+
+
+.pk{
+    letter-spacing: 3px;
+    color: orangered;
+    font-weight: 400px;
+    font-size: 30px;
+    padding: 0 10px;
+    margin-left: 50px;
+    
+
+}
+.fk{
+    letter-spacing: 2px;
+    color:brown;
+    font-weight: 400px;
+    font-size: 20px;
+    
+}
+.bsf{
+    letter-spacing: 2px;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+    
+    
+    
+ 
+.content-left a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: orange;
+    padding: 5px 18px;
+    margin-left: 70px;
+    transition: 0.5s ease;
+    
+}
+.content-left a:hover{
+    color: currentColor;
+    background-color:teal ;
+}
+.bykea{
+    padding: 30px;
+}
+
+.signup{
+    border: 1px solid black;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.signup:hover{
+    color: blanchedalmond;
+}
